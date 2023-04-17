@@ -1,0 +1,238 @@
+body{
+    background-color: rgba(0, 17, 43, 0.911);
+    color: rgb(74, 159, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+    display:flexbox;
+}
+
+body{
+    background-color: #3a1912;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.menu{
+    background-image: url(media/cup-coffee-sits-table-with-other-spices.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.menu{
+    margin: -7px;
+    margin-top: 100px;
+    height: 420px;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #320e01;
+}
+
+.title{
+    margin-top: -80px;
+}
+
+.title h3{
+    position: absolute;
+    left: 60px;
+    top: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.title .pedido{
+    position: absolute;
+    left: 1660px;
+    top: 19px;
+}
+
+
+.linha{
+    position: absolute;
+    top: 1px;
+    left: 700px;   
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.pedido{
+    border: 1px solid rgb(48, 19, 0);
+    padding: 1px 0 1px 0;
+    border-radius: 18px;
+    background-color: #a24502;
+    transition: 0.4s;
+}
+
+.pedido:hover{
+    background-color: #a20d02;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.title a{
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.linha a{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+a{
+    color: aliceblue;
+}
+
+a:hover{ 
+    color: rgb(0, 0, 0);
+    transition: 0.4s all;
+}
+
+h1{
+    font-weight: 200;
+}
+
+h2{
+    margin-top: 50px;
+    font-size: 45px;
+    line-height: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+p{
+    line-height: 20px;
+    text-align: center;
+    color: #ffff;
+    font-size: 18px;
+}
+
+.deseja{
+    color: red;
+    font-size: 25px;
+}
+
+
+.card-cafe{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 100px;
+    gap: 10px 60px;
+}
+
+.card-cafe .cafe {
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-top: 20px;
+    background: #3a1912;
+    box-shadow: 0 0 10px #fffd44;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.card-cafe .cafe:hover{
+    background-color: #320e01;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.card-cafe .cafe img{
+    width: 310px;
+    height: 240px;
+    object-fit: cover;
+    object-position: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-cafe .cafe h2{
+    text-align: center;
+    margin: 25px 0;
+}
+
+.card-cafe .cafe p{
+    text-align: center;
+    line-height: 23px;
+    margin: 0 10px;
+}
+
+.seu{
+    border: 1px solid #532319;
+    padding: 8px 0 8px 0;
+    border-radius: 08px;
+    background-color: #ca5819;
+    transition: 0.4s;
+    font-size: 20px;
+}
+
+.seu:hover{
+    background-color: #320e01;
+    color: white;
+    box-shadow: 0px 0px 06px 1px #fffc44c7;
+    transition: 0.4s;
+}
+
+.pedido-2{
+    margin-left: 815px;
+    margin-top: 10px;
+}
+
+footer{
+    margin-top: 150px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #ca5819;
+    width: 100%;
+    float: left;
+    padding: 100px 0 0 0;
+}
+
+.contato{
+    position: relative;
+    bottom: 40px;
+}
+
+.local{
+    position: relative;
+    bottom: 45px;
+}
+
+.coffee{
+    background-image: url(media/coffee-beans-top-view-white-background-space-text.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100px;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.coffee p{
+    position: relative;
+    top: 40px;
+}
+
